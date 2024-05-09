@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { GifsService } from '../services/gifs.service';
-import { Gif, Pagination } from '../interfaces/gifs,interfaces';
+import { Gif, Pagination } from '../interfaces/home/gifs,interfaces';
 
 
 @Component({

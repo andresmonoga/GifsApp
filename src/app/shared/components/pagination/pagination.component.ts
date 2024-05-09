@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { GifsService } from '../../../gifs/services/gifs.service';
-import { Pagination } from '../../../gifs/interfaces/gifs,interfaces';
+import { Pagination } from '../../../gifs/interfaces/home/gifs,interfaces';
 
 @Component({
   selector: 'shared-pagination',

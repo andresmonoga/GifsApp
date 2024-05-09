@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Gif, Pagination } from '../../interfaces/gifs,interfaces';
+import { Gif, Pagination } from '../../interfaces/home/gifs,interfaces';
 
 
 @Component({
