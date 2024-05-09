@@ -8,11 +8,18 @@ import { GifsService } from '../../services/gifs.service';
   template: `
     <h5>Buscar:</h5>
     <input type="text"
-      class="form-control"
+      class="form-control p-2"
       placeholder="Buscar gifs..."
       (keyup.enter)="searchTag()"
       #txtTagInput
-    >
+      >
+
+    <button type="button"
+     class="btn btn-outline-success center p-2"
+     (click)="searchTag()"
+     >
+      Buscar
+    </button>
   `
 })
 
